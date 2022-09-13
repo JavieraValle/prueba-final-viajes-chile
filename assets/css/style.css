@@ -1,0 +1,18 @@
+body {
+    font-family: Helvetica;
+}
+
+/* Primera Sección-Navbar */
+.navbar { 
+    position: fixed;
+    width: 100vw;
+    z-index: 1;   
+}
+.logo {
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 700;
+}
+.logo img {
+    width: 50px;
+}
