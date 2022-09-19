@@ -135,19 +135,20 @@
 
         </div>
 
-        <hr>
-
     </section>
 
     <!--Cuarta Sección - Destacados-->
-    <section id="Destacados">
-        <br>
+    <section id="Destacados" class="p-5 container-fluid">
 
-        <div class="titulo-seccion2">
+        <div class="titulo-seccion4">
             <h2>DESTACADOS</h2>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-4 g-4 p-5">
+        <br>
+
+        <br>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
 
             <div class="col">
                 <div class="card h-100">
@@ -200,6 +201,47 @@
 
     </section>
 
+    <!--Quinta Sección - Contacto-->
+    <section id="Contacto" class="container-fluid">
+
+        <br>
+
+        <div class="titulo-seccion5">
+            <h2>CONTACTO</h2>
+        </div>
+
+        <br>
+
+        <form class="mx-5">
+
+            <div class="form-group mb-4">
+                <label class="mb-2 text-light">Nombre</label>
+                <input class="form-control" placeholder="">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2 text-light">Asunto</label>
+                <input class="form-control" placeholder="">
+            </div>
+
+            <div class="form-group">
+                <label class="mb-2 text-light">Mensaje</label>
+                <textarea class="form-control" placeholder=""></textarea>
+            </div>
+
+          <!--Tooltip-Button-Enviar -->
+
+            <button id="enviar" type="button" class="btn btn-secondary bg-info my-3" data-bs-toggle="tooltip" data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip" data-bs-title="Presione para enviar mensaje.">
+                Enviar
+            </button>
+
+        </form>
+
+        <br>
+
+    </section>
+
 
 
 
@@ -208,12 +250,19 @@
 
 
     <!--Integración de JS-->
-    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>-->
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
+
+    <!--CDN JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!--Enlace con main.js-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

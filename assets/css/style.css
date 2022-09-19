@@ -34,7 +34,17 @@ body {
 #Destacados {
     background-color: black;
 }
-.titulo-seccion2 {
+.titulo-seccion4 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* Quinta Sección-Contacto */
+#Contacto {
+    background-color: black;
+}
+.titulo-seccion5 {
     text-align: center;
     color: white;
     font-weight: bold;
