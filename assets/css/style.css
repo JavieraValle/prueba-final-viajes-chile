@@ -3,16 +3,28 @@ body {
 }
 
 /* Primera Sección-Navbar */
-.navbar { 
+.navbar {
     position: fixed;
     width: 100vw;
-    z-index: 1;   
+    z-index: 1;
 }
+
 .logo {
     font-family: Oswald;
     font-size: 40px;
     font-weight: 700;
 }
+
 .logo img {
     width: 50px;
+}
+
+/* Tercera Sección-¿Quiénes somos? */
+#Quienes-somos {
+    background-color: black;
+}
+#Quienes-somos i {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
 }
