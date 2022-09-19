@@ -23,8 +23,19 @@ body {
 #Quienes-somos {
     background-color: black;
 }
+
 #Quienes-somos i {
     font-size: 2rem;
     text-align: center;
     width: 100%;
+}
+
+/* Cuarta Sección-Destacados */
+#Destacados {
+    background-color: black;
+}
+.titulo-seccion2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
