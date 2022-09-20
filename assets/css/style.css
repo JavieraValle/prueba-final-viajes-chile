@@ -34,6 +34,7 @@ body {
 #Destacados {
     background-color: black;
 }
+
 .titulo-seccion4 {
     text-align: center;
     color: white;
@@ -44,8 +45,15 @@ body {
 #Contacto {
     background-color: black;
 }
+
 .titulo-seccion5 {
     text-align: center;
     color: white;
     font-weight: bold;
+}
+
+/* Sexta Sección-Footer */
+#Footer a {
+    color: white;
+    text-decoration: none;
 }
